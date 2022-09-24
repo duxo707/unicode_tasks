@@ -6,10 +6,8 @@ def func (num):
             return True
     return False
 
-print("enter two numbers:")
-a = int(input())
-print("enter another number:")
-b = int(input())
+print("enter a number:")
+a, b = map(int, input().split(", "))
 di = {}
 for i in range(a+1, b):
     di[i] = func(i)
