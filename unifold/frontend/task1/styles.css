@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: 'Comfortaa', 'sans-serif';
+}
+
+h1, h2 {
+    font-weight: bold;
+    padding: 5% 0;
+}
+
+/* Sections */
+
+.coloured {
+    background-color: #A6B1E1;
+    color: #F4EEFF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.no-colour {
+    color: #424874;
+}
+
+/* Buttons */
+
+.btn {
+    background-color: #424874;
+    color: #F4EEFF;
+}
+
+.btn:hover {
+    background-color: #A6B1E1;
+}
+
+/* Navbar and Top Button*/
+
+.navbar {
+    background-color: #424874;
+    padding: 2% 7% 1% 7%;
+}
+
+#top .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.top-button {
+    background-color: #424874;
+    bottom: 10px;
+    color: #F4EEFF;
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+}
+
+/* About */
+
+#about {
+    font-weight: bold;
+    padding-top: 12%;
+    padding-bottom: 15%;
+}
+
+.intro {
+    margin: 1% auto;
+    width: 70%;
+}
+
+.pfp {
+    border-radius: 50%;
+    padding-bottom: 20px;
+    width: 40%;
+}
+
+/* Skills */
+
+#skills {
+    padding: 7% 15%;
+}
+
+.skill-list {
+    text-align: left;
+}
+
+.card-header {
+    background-color: #DCD6F7;
+}
+
+@media (max-width: 1028px) {
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Projects */
+
+.carousel-text {
+    color: #A6B1E1;
+}
+
+/* Socials */
+
+.contact-button {
+    margin: 2% 0;
+}
+
+.social-link {
+    color: #424874;
+    padding: 20px 10px;
+}

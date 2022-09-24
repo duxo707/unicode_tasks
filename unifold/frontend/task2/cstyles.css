@@ -1,0 +1,56 @@
+body {
+    background-color: #A6B1E1;
+    color: #F4EEFF;
+    font-family: 'Comfortaa', 'sans-serif';
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #424874;
+    padding: 2% 7% 1% 7%;
+}
+
+#top .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Form */
+
+.contact {
+    padding: 7% 15%;
+}
+
+.heading {
+    padding-bottom: 2%;
+}
+
+.form-control {
+    margin: 5px;
+    width: 75%;
+}
+
+.error {
+    color: red;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* Submit Button */
+
+div .btn {
+    background-color: #424874;
+    color: #F4EEFF;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: #A6B1E1;
+}

@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Nunito&family=Ubuntu&display=swap" rel="stylesheet">
+        
+        <!-- Bootstrap scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        
+        <!-- CSS Stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="cstyles.css">
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <section id="top">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a href="index.html" class="navbar-brand">My Portfolio</a>
+                </nav>
+            </div>
+        </section>    
+
+        <!-- Contact Me Form -->
+        <div class="contact container-fluid">
+            <h1 class="heading">Contact Me</h1>
+            <form name="fcontact" onsubmit="return formValidation()" method="post">
+                <div>
+                    <label for="" class="form-label">Name:</label>
+                    <input name="fname" type="text" class="form-control" required>
+                    <span class="hidden error nm">*Invalid name</span>
+                </div>
+                <div>
+                    <label for="" class="form-label">Email:</label>
+                    <input name="femail" type="email" class="form-control" required>
+                    <span class="hidden error em">*Invalid email</span>
+                </div>
+                <div>
+                    <label for="" class="form-label">Contact Number:</label>
+                    <input name="fnum" type="text" class="form-control" required>
+                    <span class="hidden error num">*Invalid number</span>
+                </div>
+                <div>
+                    <input name="fsubmit" type="submit" value="Submit" class="btn btn-lg btn-dark">
+                </div>
+            </form>
+        </div>
+    </body>
+
+    <script src="contact.js"></script>
+</html>
